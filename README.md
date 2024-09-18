@@ -1,4 +1,4 @@
-# C-compilor building from sratch
+# compiler building from sratch
 Skeleton: 
 Given a source code the compiler will contain of three stages of processes:
 1-	Lexical analysis  strings into internal token streams.
@@ -26,5 +26,4 @@ MOV is one of the most fundamental instructions you'll met. Its job is to move d
 Function calling: 
 Returning by convention to the Accumulator, Arguments as we work  
 The difference between lexer and compiler?
-Source code   (lexer)  token stream  (parser)  assembly
-	Cause error generation we can use flex to generate lexers but here I worked from scratch. 
+Source code --> (lexer) --> token stream --> (parser) --> assembly-->	Cause error generation we can use flex to generate lexers but here I worked from scratch. 
